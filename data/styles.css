@@ -1,0 +1,293 @@
+﻿.ax_default {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  letter-spacing:normal;
+  color:#333333;
+  vertical-align:none;
+  text-align:center;
+  line-height:normal;
+  text-transform:none;
+}
+.box_1 {
+}
+._形状 {
+}
+._图片 {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+._一级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._三级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._四级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._六级标题 {
+  font-family:"ArialMT", "Arial", sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+._段落 {
+  text-align:left;
+}
+.table_cell {
+}
+.menu_item {
+}
+.sticky_1 {
+  text-align:left;
+}
+.marker {
+  color:#FFFFFF;
+}
+.form_hint {
+  color:#999999;
+}
+.primary_button1 {
+  color:#FFFFFF;
+}
+.form_disabled {
+}
+._下拉列表 {
+  text-align:left;
+}
+.list_box {
+  color:#000000;
+  text-align:left;
+}
+.flow_shape {
+}
+._直线 {
+}
+._连线 {
+}
+._默认导航 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#87898C;
+  text-align:left;
+  line-height:21px;
+}
+.ellipse {
+}
+._输入框 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:rgba(255, 255, 255, 0.4);
+  text-align:left;
+}
+.shape {
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.icon {
+}
+._按钮 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:left;
+  line-height:22px;
+}
+._选择框 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#FFFFFF;
+  text-align:left;
+}
+._主按钮 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#001718;
+  text-align:center;
+}
+._次按钮 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:23px;
+}
+._副按钮 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:23px;
+}
+.box_3 {
+}
+._正文 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#CFCFCF;
+  text-align:center;
+}
+._表头 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:rgba(255, 255, 255, 0.6);
+  text-align:center;
+}
+.checkbox {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#FFFFFF;
+  text-align:right;
+  line-height:22px;
+}
+.radio_button {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  color:#FFFFFF;
+  text-align:left;
+}
+.tree_node {
+  text-align:left;
+}
+._禁用输入框 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:rgba(255, 255, 255, 0.4);
+  text-align:left;
+}
+._标题样式 {
+}
+._思源黑体 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:left;
+  line-height:16px;
+}
+._未选中tab {
+  font-family:"SourceHanSansSC-Medium", "思源黑体 Medium", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:500;
+  font-style:normal;
+  font-size:14px;
+  color:#182E44;
+  text-align:center;
+}
+._字体 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#BFE1FF;
+  text-align:right;
+}
+.label1 {
+  font-size:14px;
+  text-align:left;
+}
+._输入选择框 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._输入框标题文字 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  color:#F8FFFE;
+  text-align:left;
+}
+._幽灵按钮 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#0275FF;
+  text-align:left;
+}
+.form_disabled1 {
+}
+.line {
+}
+._表头样式 {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  color:#666666;
+  text-align:center;
+}
+.new_style {
+  font-family:"SourceHanSansSC-Normal", "思源黑体 Normal", "思源黑体", sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:23px;
+}
+textarea, select, input, button, div, svg { outline: none; }

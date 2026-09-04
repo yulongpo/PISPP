@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="Clip221">
+      <path d="M 469 200  C 468.445 200  468 199.555  468 199  L 468 185  C 468 184.445  468.445 184  469 184  L 483 184  C 483.555 184  484 184.445  484 185  L 484 199  C 484 199.555  483.555 200  483 200  " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -468 -184 )">
+    <image preserveAspectRatio="none" style="overflow:visible" width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAACdSURBVFhHY/z//z8zwwACxlEHjIbAaAiMhsBoCIyGAFII2APrpDhovbQISB8kUEdRon4S0OyLIPNhlZE+kH0WzUJnPI4AWb6XQvXGIEfAHDAPyfcwc0GhkIQjFEhVvxZojj+aWaBQKMLngI1ABcE0dADYg4MmCkAeBaWDfKiPFxKZCOPJVD8RPREOWKNstEk2GgKjITAaAqMhMBoCAGGshCEy2ztHAAAAAElFTkSuQmCC" x="468px" y="184px" mask="url(#Clip221)" />
+  </g>
+</svg>

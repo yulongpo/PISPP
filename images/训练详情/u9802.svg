@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="587px" height="10px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="588.5282727198764" y1="3.9215686274508954" x2="0" y2="3.921568627450931" id="LinearGradient371">
+      <stop id="Stop372" stop-color="#9be2d5" offset="0" />
+      <stop id="Stop373" stop-color="#9be2d5" stop-opacity="0.21176470588235294" offset="1" />
+    </linearGradient>
+    <pattern id="BGPattern" patternUnits="userSpaceOnUse" alignment="0 0" imageRepeat="None" />
+    <mask fill="white" id="Clip374">
+      <path d="M 5 10  C 2.1999999999999997 10  0 7.800000000000001  0 5  C 0 2.1999999999999997  2.1999999999999997 0  5 0  L 582 0  C 584.8000000000001 0  587 2.1999999999999997  587 5  C 587 7.800000000000001  584.8000000000001 10  582 10  L 5 10  Z " fill-rule="evenodd" />
+    </mask>
+  </defs>
+  <g transform="matrix(1 0 0 1 -1177 -135 )">
+    <path d="M 5 10  C 2.1999999999999997 10  0 7.800000000000001  0 5  C 0 2.1999999999999997  2.1999999999999997 0  5 0  L 582 0  C 584.8000000000001 0  587 2.1999999999999997  587 5  C 587 7.800000000000001  584.8000000000001 10  582 10  L 5 10  Z " fill-rule="nonzero" fill="url(#LinearGradient371)" stroke="none" transform="matrix(1 0 0 1 1177 135 )" class="fill" />
+    <path d="M 5 10  C 2.1999999999999997 10  0 7.800000000000001  0 5  C 0 2.1999999999999997  2.1999999999999997 0  5 0  L 582 0  C 584.8000000000001 0  587 2.1999999999999997  587 5  C 587 7.800000000000001  584.8000000000001 10  582 10  L 5 10  Z " stroke-width="0" stroke-dasharray="0" stroke="rgba(45, 45, 58, 1)" fill="none" transform="matrix(1 0 0 1 1177 135 )" class="stroke" mask="url(#Clip374)" />
+  </g>
+</svg>
