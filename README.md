@@ -1,6 +1,8 @@
-# 信号智能处理平台原型
+# 信号智能处理平台原型（PISPP - Prototype of Intelligent Signal Processing Platform）
 
-# PISPP - Prototype of Intelligent Signal Processing Platform
+面向窄带与宽带信号的数据构建、智能识别模型研发与效能评测一体化平台。
+
+An integrated platform for narrowband and broadband signal data construction, intelligent recognition model development, and performance evaluation.
 
 基于 Axure RP 导出的静态交互原型，面向窄带与宽带信号的数据构建、智能识别模型研发和效能评测。原型展示了从数据资产管理、信号生成与标注，到训练、模型管理和离线评测的完整流程。
 
