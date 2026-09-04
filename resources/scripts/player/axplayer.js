@@ -2935,7 +2935,7 @@ var toolBarOnly = true;
 
 
     function mainFrame_onload() {
-        if ($axure.page.pageName) document.title = $axure.page.pageName;
+        if ($axure.page.pageName) document.title = "信号智能处理平台 - " + $axure.page.pageName;
     }
 
     function getQueryString(query) {
