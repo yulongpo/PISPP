@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PISPP 宽带信号处理平台 V2 交互原型">
+  <title>PISPP V2 宽带信号处理平台</title>
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar" aria-label="主导航">
+      <div class="brand">
+        <div class="brand-mark">PS</div>
+        <div>
+          <div class="brand-name">PISPP</div>
+          <div class="brand-subtitle">Signal Intelligence</div>
+        </div>
+      </div>
+      <div class="version-pill">V2 宽带原型</div>
+      <nav class="nav-groups">
+        <div class="nav-group">
+          <div class="nav-label">工作台</div>
+          <a href="#/" data-route="/" class="nav-item" data-nav="/">总览</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">数据资产</div>
+          <a href="#/data-sources" data-route="/data-sources" class="nav-item" data-nav="/data-sources">数据源管理</a>
+          <a href="#/sample-sets" data-route="/sample-sets" class="nav-item" data-nav="/sample-sets">样本集管理</a>
+          <a href="#/dataset" data-route="/dataset" class="nav-item" data-nav="/dataset">Detection Dataset</a>
+          <a href="#/scene-detail" data-route="/scene-detail" class="nav-item" data-nav="/scene-detail">宽带场景详情</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">数据构建</div>
+          <a href="#/scene-builder" data-route="/scene-builder" class="nav-item" data-nav="/scene-builder">宽带场景生成</a>
+          <a href="#/annotation" data-route="/annotation" class="nav-item" data-nav="/annotation">宽带时频标注</a>
+          <a href="../窄带信号生成.html" class="nav-item external-nav">窄带信号生成</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">模型研发</div>
+          <a href="#/training" data-route="/training" class="nav-item" data-nav="/training">训练任务</a>
+          <a href="#/experiment" data-route="/experiment" class="nav-item" data-nav="/experiment">实验详情</a>
+          <a href="#/models" data-route="/models" class="nav-item" data-nav="/models">模型管理</a>
+        </div>
+        <div class="nav-group">
+          <div class="nav-label">模型评测</div>
+          <a href="#/evaluation" data-route="/evaluation" class="nav-item" data-nav="/evaluation">宽带检测评测</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="system-state"><span class="status-dot"></span><span>Mock Runtime 已连接</span></div>
+        <a href="../start.html" target="_blank" class="v1-link">打开 V1 Axure 基线</a>
+      </div>
+    </aside>
+    <main class="main-shell">
+      <header class="topbar">
+        <div class="breadcrumbs"><span>PISPP</span><span class="crumb-separator">/</span><span id="breadcrumb-current">工作台</span></div>
+        <div class="topbar-actions">
+          <span class="mock-badge">原型模拟数据</span>
+          <span class="topbar-divider"></span>
+          <span class="user-label">算法研发工作区</span>
+          <a href="../start.html" target="_blank" class="topbar-v1">V1 基线</a>
+        </div>
+      </header>
+      <section id="app-view" class="page-content" aria-live="polite"></section>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/domain-data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,231 @@
+(function () {
+  const scene = {
+    id: "WBSC-0007",
+    name: "华北机场频段混合观测-07",
+    rf_center_frequency_hz: 2450000000,
+    sampling_rate_sps: 80000000,
+    receiver_bandwidth_hz: 60000000,
+    duration_s: 0.020,
+    sample_format: "complex64",
+    reference_level_dbm: -10,
+    background: {
+      type: "colored_noise",
+      noise_psd_dbm_per_hz: -132,
+      noise_floor_dbfs: -92,
+      source_ref: "NOISE-FLOOR-ALASHAN-051"
+    },
+    tf_config: {
+      fft_length: 4096,
+      window: "Blackman-Harris",
+      overlap_ratio: 0.75,
+      hop_length: 1024,
+      scaling: "PSD / dBm",
+      normalization: "reference-level",
+      tile_size: "512 × 256",
+      colormap: "Viridis",
+      version: "tf-v2.3.1"
+    },
+    signal_instances: [
+      {
+        id: "SIG-001",
+        scene_id: "WBSC-0007",
+        source_type: "simulated",
+        class_label: "QPSK / telemetry",
+        modulation: "QPSK",
+        protocol: "自定义遥测",
+        behavior: "continuous",
+        center_frequency_hz: 2412000000,
+        occupied_bandwidth_hz: 4500000,
+        start_time_s: 0,
+        duration_s: 0.020,
+        received_power_dbm: -55,
+        cnr_db: 37,
+        snr_db: 34,
+        symbol_rate_baud: 2500000,
+        frequency_offset_hz: 1250,
+        channel_model: "AWGN + mild multipath",
+        track_id: "TRK-001"
+      },
+      {
+        id: "SIG-002",
+        scene_id: "WBSC-0007",
+        source_type: "measured",
+        class_label: "LTE downlink",
+        modulation: "OFDM",
+        protocol: "LTE",
+        behavior: "burst",
+        center_frequency_hz: 2435000000,
+        occupied_bandwidth_hz: 10000000,
+        start_time_s: 0.0028,
+        duration_s: 0.0115,
+        received_power_dbm: -48,
+        cnr_db: 44,
+        snr_db: 39,
+        symbol_rate_baud: 15000000,
+        frequency_offset_hz: -2200,
+        channel_model: "recorded front-end",
+        track_id: "TRK-002"
+      },
+      {
+        id: "SIG-003",
+        scene_id: "WBSC-0007",
+        source_type: "simulated",
+        class_label: "4FSK / beacon",
+        modulation: "4FSK",
+        protocol: "机场信标",
+        behavior: "burst",
+        center_frequency_hz: 2455000000,
+        occupied_bandwidth_hz: 2200000,
+        start_time_s: 0.0075,
+        duration_s: 0.0048,
+        received_power_dbm: -63,
+        cnr_db: 29,
+        snr_db: 26,
+        symbol_rate_baud: 800000,
+        frequency_offset_hz: 700,
+        channel_model: "Rician K=6 dB",
+        track_id: "TRK-003"
+      },
+      {
+        id: "SIG-004",
+        scene_id: "WBSC-0007",
+        source_type: "simulated",
+        class_label: "FHSS / control",
+        modulation: "GFSK",
+        protocol: "跳频控制链",
+        behavior: "hopping",
+        center_frequency_hz: 2472000000,
+        occupied_bandwidth_hz: 1200000,
+        start_time_s: 0.0012,
+        duration_s: 0.0172,
+        received_power_dbm: -78,
+        cnr_db: 16,
+        snr_db: 13,
+        symbol_rate_baud: 1000000,
+        frequency_offset_hz: 3400,
+        channel_model: "slow fading",
+        hop_rate_hz: 200000,
+        track_id: "TRK-004"
+      },
+      {
+        id: "SIG-005",
+        scene_id: "WBSC-0007",
+        source_type: "imported",
+        class_label: "OFDM / adjacent channel",
+        modulation: "OFDM",
+        protocol: "宽带数据链",
+        behavior: "continuous",
+        center_frequency_hz: 2460500000,
+        occupied_bandwidth_hz: 7200000,
+        start_time_s: 0.0055,
+        duration_s: 0.0083,
+        received_power_dbm: -69,
+        cnr_db: 23,
+        snr_db: 20,
+        symbol_rate_baud: 5000000,
+        frequency_offset_hz: -1600,
+        channel_model: "AWGN",
+        track_id: "TRK-005"
+      }
+    ],
+    provenance: {
+      raw_iq_ref: "rawiq://capture/WBSC-0007",
+      generator: "PISPP V2 scene mock",
+      seed: 240907,
+      parent_version: "scene-v1.4.0"
+    }
+  };
+
+  window.PISPP_DOMAIN = {
+    WidebandScene: scene,
+    Background: scene.background,
+    SignalInstance: scene.signal_instances,
+    TFRepresentation: scene.tf_config,
+    DetectionAnnotation: [
+      {
+        id: "ANN-001",
+        scene_id: "WBSC-0007",
+        signal_instance_id: "SIG-001",
+        t_start_s: 0,
+        t_end_s: 0.020,
+        f_low_hz: 2409750000,
+        f_high_hz: 2414250000,
+        class_label: "QPSK / telemetry",
+        known_state: "known",
+        confidence: 0.98,
+        source: "manual",
+        track_id: "TRK-001"
+      },
+      {
+        id: "ANN-002",
+        scene_id: "WBSC-0007",
+        signal_instance_id: "SIG-002",
+        t_start_s: 0.0028,
+        t_end_s: 0.0143,
+        f_low_hz: 2430000000,
+        f_high_hz: 2440000000,
+        class_label: "LTE downlink",
+        known_state: "known",
+        confidence: 0.94,
+        source: "auto",
+        track_id: "TRK-002"
+      },
+      {
+        id: "ANN-003",
+        scene_id: "WBSC-0007",
+        signal_instance_id: "SIG-004",
+        t_start_s: 0.0012,
+        t_end_s: 0.0184,
+        f_low_hz: 2471400000,
+        f_high_hz: 2472600000,
+        class_label: "FHSS / control",
+        known_state: "unknown",
+        confidence: 0.81,
+        source: "auto",
+        track_id: "TRK-004"
+      }
+    ],
+    SignalTrack: [
+      { id: "TRK-001", scene_id: "WBSC-0007", detection_ids: ["ANN-001"], behavior: "continuous", confidence: 0.98 },
+      { id: "TRK-002", scene_id: "WBSC-0007", detection_ids: ["ANN-002"], behavior: "burst", confidence: 0.94 },
+      { id: "TRK-004", scene_id: "WBSC-0007", detection_ids: ["ANN-003"], behavior: "hopping", hop_rate_hz: 200000, confidence: 0.81 }
+    ],
+    ExtractedSignal: null,
+    Dataset: {
+      id: "DS-TF-2026-003",
+      name: "机场宽带时频检测集",
+      type: "DetectionDataset",
+      version: "v0.8.2",
+      parent_scenes: ["WBSC-0007", "WBSC-0006", "WBSC-0004"],
+      scene_count: 128,
+      tile_count: 18432,
+      annotation_count: 38976,
+      known_ratio: 0.82,
+      unknown_ratio: 0.18,
+      tile_size: "512 × 256",
+      annotation_schema: "(t_start, t_end, f_low, f_high, class)",
+      class_mapping: "class-map-v3.1",
+      split: { train: 0.70, val: 0.15, test: 0.15 },
+      stft_config: "tf-v2.3.1 / NFFT 4096 / Blackman-Harris / 75% overlap",
+      distributions: {
+        classes: [{ label: "OFDM", value: 34 }, { label: "QPSK", value: 26 }, { label: "4FSK", value: 18 }, { label: "FHSS", value: 12 }, { label: "unknown", value: 10 }],
+        cnr: [{ label: "< 5 dB", value: 12 }, { label: "5–15 dB", value: 28 }, { label: "15–30 dB", value: 41 }, { label: "> 30 dB", value: 19 }],
+        bandwidth: [{ label: "< 2 MHz", value: 21 }, { label: "2–5 MHz", value: 36 }, { label: "5–10 MHz", value: 29 }, { label: "> 10 MHz", value: 14 }],
+        duration: [{ label: "< 2 ms", value: 18 }, { label: "2–10 ms", value: 43 }, { label: "10–20 ms", value: 26 }, { label: "常在", value: 13 }]
+      }
+    },
+    Model: [
+      { id: "MDL-WB-017", name: "TF-Detector-AnchorV2", type: "Signal Detection", format: "ONNX", dataset: "DS-TF-2026-003 v0.8.2", status: "已注册", score: "mAP 0.846" },
+      { id: "MDL-WB-012", name: "SpectroSeg-UNet", type: "Spectrogram Segmentation", format: "PyTorch", dataset: "DS-TF-2026-002 v0.7.4", status: "训练中", score: "IoU 0.781" },
+      { id: "MDL-WB-009", name: "TrackLink-FH", type: "Signal Tracking", format: "TensorRT", dataset: "DS-TF-2026-001 v0.6.1", status: "已注册", score: "F1 0.812" },
+      { id: "MDL-NB-031", name: "ModRec-QAM-Base", type: "Modulation Recognition", format: "ONNX", dataset: "NB-REC-2026-011", status: "已注册", score: "Acc 0.931" }
+    ],
+    Evaluation: {
+      id: "EVAL-WB-0042",
+      model: "TF-Detector-AnchorV2 / MDL-WB-017",
+      dataset: "DS-TF-2026-003 v0.8.2",
+      metrics: { Pd: 0.914, Pfa: 0.031, Precision: 0.902, Recall: 0.914, F1: 0.908, mAP: 0.846, IoU: 0.781, centerError: 18.4, bandwidthError: 0.21, timeError: 0.34 },
+      conditions: ["SNR/CNR", "Bandwidth", "Duration", "Signal Count", "Occupancy", "Frequency Separation", "Power Difference"]
+    }
+  };
+}());

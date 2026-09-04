@@ -17,3 +17,6 @@ Desktop.ini
 
 # Log files
 *.log
+
+# Generated delivery archives
+PISPP_wideband_refactor_codex_pack.zip

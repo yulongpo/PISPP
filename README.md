@@ -21,6 +21,10 @@ An integrated platform for narrowband and broadband signal data construction, in
 
 也可以使用任意静态文件服务器将仓库根目录作为站点根目录后访问 `start.html`。
 
+## V2 宽带原型预览
+
+本轮宽带领域重构以独立 V2 原型交付，不改写 V1 Axure 导出页面。无需安装依赖，可直接打开 `start_v2.html`，或在仓库根目录启动静态服务器后访问 `http://localhost:8765/prototype_v2/`。V2 覆盖宽带场景生成、时频标注、Detection Dataset、训练/模型/评测以及宽带 ROI 到窄带提取联动。
+
 ## 功能页面
 
 - 数据资产管理：数据源管理、样本集管理、新建样本集及详情页面。
